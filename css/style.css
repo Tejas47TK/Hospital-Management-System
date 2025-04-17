@@ -1,0 +1,24 @@
+ .backimg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+@media (min-aspect-ratio:16/9){
+    .backimg{
+        width: 100%;
+        height: auto;
+    }    
+}
+
+@media (max-aspect-ratio:16/9){
+    .backimg{
+        width: auto;
+        height: 100%;
+    }
+}
+
+#img_login{
+    margin-bottom: 25px;
+}
